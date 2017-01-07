@@ -267,28 +267,29 @@ section.success a.active {
     }
 }
 
-.test {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/beach.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/beach.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
 
 blockquote {
+    margin-top: 60px;
     padding: 2%;
     font-style: italic;
     line-height: 145%;
     position: relative;
+    border-left: none;
 }
 
 blockquote:before {
     content: "\201C";
-    font-size: 500%;
+    font-size: 400%;
     display: block;
     position: absolute;
-    top: -5px;
-    left: -5px;
+    top: 25px;
+    left: -25px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
 }
 
 .btn-success {
